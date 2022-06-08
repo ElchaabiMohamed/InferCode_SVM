@@ -1,0 +1,16 @@
+def suiteGeo(liste):
+  i=0
+  end=False
+  while i<len(liste) and res==True and end==False:
+    if liste[i]==0:
+      res=False
+    elif len(liste)==1 and liste[i]>=1:
+      end=True
+      res=True
+    else:
+      q=liste[1]/liste[0]
+      if liste[i+1]/liste[i]==q:
+        res=True
+      else:
+        res=False
+  return res
