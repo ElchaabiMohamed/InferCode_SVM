@@ -1,0 +1,7 @@
+import sys
+def overlap(x0=0, y0=0, R0=1, x1=0, y1=0, R1=1):
+	overlap=False
+	if (R0-R1)**2 < (x0-x1)**2+(y0-y1)**2 < (R0+R1)**2:
+		overlap=True
+	return(overlap)
+

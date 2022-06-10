@@ -1,0 +1,2 @@
+area=side*side
+

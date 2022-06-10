@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+import sys
+def union(a,b):
+	result = a + b
+
+	s = []
+	i = 0
+	line = result[i]
+	while 0 < line:
+		while i < a and s[i] != line:
+			i = i + 1
+		if i == len(s):
+			s.append(line)
+	return line.rstrip()
+
+if __name__ == '__main__':
+	print(union(a,b))

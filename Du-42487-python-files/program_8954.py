@@ -1,0 +1,24 @@
+def swap(a,i,j):
+	# Swap the items at index i and j in the list a 
+	a[i], a[j] = a[j], a[i]
+	
+def find_position_of_smallest(a,i):
+	# Find the position of the smallest item in list a
+	# Starting from index i to the end of the list 
+	l = a[i:]
+	s = 0 # Current smallest element 
+	j = 0 # Index
+	while j < len(l):
+		if l[j] < l[s]:
+			s = j 
+		j += 1
+	return s + len(a) - len(l)
+	
+def sort(a):
+	i = 0 
+	while i < len(a):
+		smallest = find_position_of_smallest(a,i)
+		swap(a, i, smallest)
+		i += 1
+		
+	

@@ -1,0 +1,2 @@
+s = "Goodbye"
+print(s)

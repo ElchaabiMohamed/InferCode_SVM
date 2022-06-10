@@ -1,0 +1,8 @@
+area = side * side
+
+
+
+
+
+
+

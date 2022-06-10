@@ -1,0 +1,5 @@
+import sys
+
+def overlap(x1=0, y1=0, r1=1, x2=0, y2=0, r2=0):
+   return ((x2 - x1) + (y2 - y1) ** 0.5) < r1 + r2
+

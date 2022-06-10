@@ -1,0 +1,2 @@
+def swap_unique_keys_values(d):
+    new_d = {v:k for k,v in list(d.items())}

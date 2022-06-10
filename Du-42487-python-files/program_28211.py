@@ -1,0 +1,28 @@
+import time
+def countdown(num):
+	if num == 1:
+		print(num)
+		print("LIFT OFF!")
+	else:
+		print(num)
+		time.sleep(0.1)
+		countdown(int(num)-1)
+
+def search(str, letter):
+	for n in str:
+		if n == letter:
+			return True
+	return False
+
+def index(str, letter,pos):
+	if pos == len(str):
+		return -1
+		i += 1
+	elif str[pos] == letter:
+		return pos
+	else:
+		return inddex(str, letter, pos+1)
+
+def fibonacci(n):
+	a = [0,1,1,2,3,5,8,13,21,34]
+	return a[n]

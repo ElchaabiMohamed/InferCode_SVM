@@ -1,0 +1,1 @@
+area = sise * side 

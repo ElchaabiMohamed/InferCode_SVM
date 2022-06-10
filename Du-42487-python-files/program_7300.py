@@ -1,0 +1,11 @@
+import sys
+
+def swap_unique_keys_values(d):
+  values = list(d.values())
+  return {v : k for (k, v) in list(d.items()) if values.count(v) < 2}
+
+def main():
+  swap_unique_keys_values()
+
+if __name__ == "__main__":
+  main()

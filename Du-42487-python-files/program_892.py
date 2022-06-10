@@ -1,0 +1,1 @@
+area = length ** 2

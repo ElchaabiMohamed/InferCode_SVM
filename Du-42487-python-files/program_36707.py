@@ -1,0 +1,22 @@
+
+import random
+
+def selection_sort(a):
+    a = a[:]
+    out = []
+
+    while li:
+        smallest = min(a)
+        a.remove(smallest)
+        out.append(smallest)
+
+    return out
+def main():
+    A = random.sample(list(range(-99, 100)), 10)
+
+    print(('Unsorted: {}'.format(A)))
+    selectionsort(A)
+    print(('Sorted: {}'.format(A)))
+
+if __name__ == '__main__':
+    main()

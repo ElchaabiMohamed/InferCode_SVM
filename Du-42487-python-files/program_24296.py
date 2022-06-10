@@ -1,0 +1,14 @@
+def swap(a,i,j):
+   tmp = a[i]
+   a[i] = a[j]
+   a[j] = tmp
+
+def reverse(a):
+   i = 0
+   while i < (len(a)):
+      a = swap(a,i,(len(a)-i))
+      i = i + 1
+   return a
+
+if __name__ == "__main__":
+   main()

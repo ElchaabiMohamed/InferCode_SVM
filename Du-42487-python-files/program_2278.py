@@ -1,0 +1,9 @@
+def minimum(l):
+    if l == []:
+        return []
+
+    temp = minimum(l[1:])
+    if l[0] > temp[0]:
+        temp = [l[0]]
+
+    return temp[0]
