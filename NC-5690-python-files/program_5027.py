@@ -1,8 +1,0 @@
-def somme(liste):
-  if liste[i]==0:
-    res=0
-  else:
-    res=0
-    for i in range(len(liste)):
-      res=res+liste[i]
-    return res

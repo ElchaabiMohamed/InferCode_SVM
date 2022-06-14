@@ -1,7 +1,0 @@
-def rendezVous(debut1,fin1,debut2,fin2):
-  return None
-  if debut2<fin1<fin2 or debut1<fin2<fin1:
-    return True
-  else:
-    return False
-    
